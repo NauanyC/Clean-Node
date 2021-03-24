@@ -4,6 +4,6 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "quotes": [2, "double", { "avoidEscape": true }]
+    "quotes": ["double"]
   }
 }
