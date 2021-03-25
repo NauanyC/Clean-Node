@@ -4,6 +4,12 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "quotes": ["double"]
+    "@typescript-eslint/quotes": [
+      "error",
+      "double",
+      { "allowTemplateLiterals": true }
+    ],
+    "@typescript-eslint/camelcase": ["off"],
+    "@typescript-eslint/comma-spacing": "off"
   }
 }
