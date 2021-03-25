@@ -25,6 +25,9 @@ export class SignUpController implements Controller {
       return badRequest(new InvalidParamError("email"))
     }
 
-    throw new Error("Shouldn't be reachable")
+    return {
+      statusCode: 200,
+      body: {}
+    }
   }
 }
